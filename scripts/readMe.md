@@ -1,4 +1,4 @@
-# Extracting HPD information and Effective Sample Sizes from BEAST2 analysis.
+# Extracting the upper and lower bounds of HPDs and Effective Sample Sizes from BEAST2 analysis.
 Place ESSHPD.sh and rthings folder containing FindESS.r and FindHPD.r in the parent directory.
 
 Edit line 10, so it corresponds to the Rscript path on your device.
