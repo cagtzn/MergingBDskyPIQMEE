@@ -1,16 +1,14 @@
 #!/bin/bash
 #
 #Requires .log files in pwd
-#Requires .newick files in trees/
 #Requires R scripts in ../rthings/
 #No arguments, change sim number manually if needed (default=100)
 ######
-#!!!!!!!!!!!!!Define Rscript and newick-utils paths!!!!!!!!!!!!!!!!!!
+#!!!!!!!!!!!!!Define Rscript path!!!!!!!!!!!!!!!!!!
 ######
 rscriptPath='path to rscript'
-utilPath="path to newick utilities/src/nw_distance"
 ######
-#!!!!!!!!!!!!!Define Rscript and newick-utils paths!!!!!!!!!!!!!!!!!!
+#!!!!!!!!!!!!!Define Rscript path!!!!!!!!!!!!!!!!!!
 ######
 mkdir HPDs
 mkdir ESSs
